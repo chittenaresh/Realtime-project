@@ -3,7 +3,8 @@ FROM node:alpine
 
 # Create and set the working directory inside the container
 WORKDIR /app
-
+Workdir /test
+WORKDIR /tmp
 # Copy package.json and package-lock.json to the working directory
 COPY package.json package-lock.json /app/
 
