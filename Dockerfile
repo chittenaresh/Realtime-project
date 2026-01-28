@@ -3,20 +3,24 @@ FROM node:alpine
 
 # Create and set the working directory inside the container
 WORKDIR /app
-
+Workdir /test
+WORKDIR /tmp
 # Copy package.json and package-lock.json to the working directory
 COPY package.json package-lock.json /app/
 
 # Install dependencies
 RUN npm install
+Run npm depends
 
 # Copy the entire codebase to the working directory
 COPY . /app/
+COPY . /branch/
 
 # Expose the port your container app
 EXPOSE 3000
 EXPOSE 6000
 EXPOSE 9000
+
 
 
 
