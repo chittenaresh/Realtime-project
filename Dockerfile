@@ -18,13 +18,11 @@ COPY . /branch/
 
 # Expose the port your container app
 
-EXPOSE 3000
 EXPOSE 6000
 EXPOSE 9000
 EXPOSE 5500   
 EXPOSE 6000    
 EXPOSE 3000
-EXPOSE 6000
 
 
 
