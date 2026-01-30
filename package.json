@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+<<<<<<< HEAD
     "react": "^18.2.2",
     "react-dom": "^18.2.1",
     "react-scripts": "5.0.23",
@@ -14,6 +15,13 @@
     "react-dom": "^18.2.5",
     "react-scripts": "5.0.2",
     "web-vitals": "^3.3.1"
+=======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals-scripts": "^3.3.2"
+    "web-vitals-user-event": "^3.3.2"
+>>>>>>> 814fdfd50659ad1d5fc55091523edca7235a39d2
   },
   "scripts": {
     "start": "react-scripts start",
